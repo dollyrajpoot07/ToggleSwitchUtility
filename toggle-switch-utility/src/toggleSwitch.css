@@ -1,0 +1,25 @@
+.toggle-switch-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .toggle-switch {
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #ccc;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-switch.on {
+    background-color: #1cdf22;
+  }
+  
+  .toggle-switch.off {
+    background-color: #ff1155;
+  }
+  
